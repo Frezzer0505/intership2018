@@ -1,0 +1,8 @@
+ // Create Button
+ onpressButton(){
+     Alert.alert('press on me')
+ }
+
+ <Button
+ onpress= {this.onpressButton}
+ title="button 1"
